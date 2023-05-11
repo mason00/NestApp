@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:SyncPriceList xmlns:ns0="http://www.openapplications.org/oagis/10" releaseID="10.5" versionID="1.0" systemEnvironmentCode="UsersAcceptanceTest" languageCode="EN">
+	<ns0:ApplicationArea>
+		<ns0:Sender>
+			<ns0:LogicalID schemeAgencyID="woolworths.com.au">SAPECC</ns0:LogicalID>
+			<ns0:ReferenceID schemeAgencyID="SAPECC">0000004370498600</ns0:ReferenceID>
+			<ns0:ConfirmationCodes>
+				<ns0:ConfirmationCode>Always</ns0:ConfirmationCode>
+			</ns0:ConfirmationCodes>
+			<ns0:ID typeCode="SourceSystem">SAP</ns0:ID>
+		</ns0:Sender>
+		<ns0:Intermediary>
+			<ns0:ID typeCode="SERIAL">20220909035236510233</ns0:ID>
+		</ns0:Intermediary>
+		<ns0:CreationDateTime>2022-09-09T13:52:36.0</ns0:CreationDateTime>
+		<ns0:BODID schemeAgencyID="SAPPI"/>
+	</ns0:ApplicationArea>
+	<ns0:DataArea>
+		<ns0:Sync/>
+		<ns0:PriceList typeCode="ZB2L">
+			<ns0:PriceListHeader>
+				<ns0:ID typeCode="ArticleNumber">000000000000123512</ns0:ID>
+				<ns0:VariationID typeCode="Z2">123512</ns0:VariationID>
+				<ns0:DocumentIDSet typeCode="Hierarchy">
+					<ns0:ID typeCode="HierarchyID"/>
+				</ns0:DocumentIDSet>
+				<ns0:Description typeCode="VariableKeyShort">100530        000000000000123507CA1</ns0:Description>
+				<ns0:Description typeCode="VariableKeyLong">100530        000000000000123507CA1</ns0:Description>
+				<ns0:DocumentReference>
+					<ns0:DocumentIDSet>
+						<ns0:ID typeCode="SalesOrg">1005</ns0:ID>
+						<ns0:ID typeCode="DistributionChannel">30</ns0:ID>
+					</ns0:DocumentIDSet>
+					<ns0:Extension/>
+				</ns0:DocumentReference>
+				<ns0:CustomerParty>
+					<ns0:Extension/>
+				</ns0:CustomerParty>
+				<ns0:Extension>
+					<ns0:Code typeCode="ConditionTable">989</ns0:Code>
+					<ns0:Code typeCode="Application">V</ns0:Code>
+					<ns0:Indicator typeCode="Usage">A</ns0:Indicator>
+					<ns0:ValueText typeCode="SalesUnit">CA1</ns0:ValueText>
+				</ns0:Extension>
+			</ns0:PriceListHeader>
+			<ns0:PriceListLine>
+				<ns0:DocumentReference typeCode="ZB2L">
+					<ns0:Extension>
+						<ns0:Amount currencyCode="AUD" typeCode="Rate">2.50</ns0:Amount>
+						<ns0:Code typeCode="CalculationType">C</ns0:Code>
+						<ns0:Number typeCode="Numerator">0</ns0:Number>
+						<ns0:Number typeCode="Denominator">0</ns0:Number>
+						<ns0:Quantity unitCode="CA1" typeCode="PricingUnit">1</ns0:Quantity>
+						<ns0:ValueText typeCode="ConditionCurrency">AUD</ns0:ValueText>
+					</ns0:Extension>
+				</ns0:DocumentReference>
+				<ns0:Extension>
+					<ns0:Code typeCode="Responsibility">ZMD</ns0:Code>
+					<ns0:DateTime typeCode="ValidFrom">20200107</ns0:DateTime>
+					<ns0:DateTime typeCode="ValidTo">20201230</ns0:DateTime>
+					<ns0:ID typeCode="ConditionRecord">0403999322</ns0:ID>
+				</ns0:Extension>
+			</ns0:PriceListLine>
+		</ns0:PriceList>
+	</ns0:DataArea>
+</ns0:SyncPriceList>
